@@ -2,7 +2,8 @@
   left:20px;
   width:20%;
   position: fixed;
-  
+  margin:auto;
+  height:100%;
 }
 #content{  
   margin-left: 25%;
