@@ -7,3 +7,8 @@
 #content{  
   margin-left: 25%;
 }
+.box{
+  width:50%;
+  border: 15px solid red;
+  padding: 10px;
+}
