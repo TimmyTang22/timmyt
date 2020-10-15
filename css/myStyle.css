@@ -20,6 +20,9 @@
   margin:auto;
   text-align:center;
 }
+.card{
+  width:75px;
+}
 .img-skills{
   width:50px;
 }
