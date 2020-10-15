@@ -12,16 +12,13 @@
   width:200px;
 }
 .card{
-  padding:1rem;
+  padding:1px;
   margin: 1rem;
   display:inline-block;
 }
 .card-text{
   margin:auto;
   text-align:center;
-}
-.card{
-  width:75px;
 }
 .img-skills{
   width:50px;
