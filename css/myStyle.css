@@ -19,12 +19,9 @@
   margin:auto;
   text-align:center;
 }
-.img-skills{
-  width:50px;
-}
 
 .skill-card{
-  width:50px; 
+  width:100px; 
   display:inline-block;
   margin: 1rem;
 }
