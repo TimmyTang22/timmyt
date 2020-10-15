@@ -24,8 +24,8 @@ ul,li{
 }
 .skill-card{
   width:200px; 
-  height:250px;
-  max-height:250px;
+  height:200px;
+  max-height:200px;
   display:inline-block;
   margin: 1rem;
 }
