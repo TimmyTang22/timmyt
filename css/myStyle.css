@@ -17,5 +17,6 @@
   float:left;
 }
 .card-text{
- margin:auto; 
+ margin:auto;
+  text-align:center;
 }
