@@ -13,6 +13,8 @@
 }
 .card{
   padding:1rem;
+  margin: 1rem;
+  float:left;
 }
 .card-text{
  margin:auto; 
