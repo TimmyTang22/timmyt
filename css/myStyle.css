@@ -12,14 +12,13 @@
   width:200px;
 }
 .edu-card{
-  padding:1px;
+  padding:5px;
   margin: 1rem;
 }
 .card-text{
   margin:auto;
   text-align:center;
 }
-
 .skill-card{
   width:100px; 
   display:inline-block;
