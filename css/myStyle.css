@@ -25,6 +25,7 @@ ul,li{
 .skill-card{
   width:200px; 
   height:250px;
+  max-height:250px;
   display:inline-block;
   margin: 1rem;
 }
