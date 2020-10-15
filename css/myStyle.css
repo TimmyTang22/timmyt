@@ -27,7 +27,6 @@ ul,li{
   height:200px;
   display:inline-block;
   margin: 1rem;
-  overflow:auto;
 }
 .skill-img{
   width:150px;
