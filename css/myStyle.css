@@ -4,10 +4,12 @@
   position: fixed;
   margin:auto;
   height:100%;
-  text-align:center;
 }
 #content{  
   margin-left: 25%;
+}
+ul,li{
+ padding:10px;
 }
 .school_logo{
   width:200px;
