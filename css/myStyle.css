@@ -1,8 +1,9 @@
 #sidebar{
   left:20px;
-  width:200px;
+  width:20%;
   position: fixed;
+  
 }
 #content{  
-  width:220px;
+  margin-left: 25%;
 }
