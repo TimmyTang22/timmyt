@@ -54,6 +54,6 @@ ul,li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-body::before{
+body{
   background: url("image/background-image.jpg") rgba(255,255,255,0.5) no-repeat center center fixed;
 }
