@@ -29,9 +29,9 @@ ul,li{
   margin: 1rem;
 }
 .skill-img{
-  width:150px;
-  max-width:150px;
-  max-height:150px;
+  width:200px;
+  max-width:200px;
+  max-height:200px;
 }
 .overlay {
   position: absolute;
