@@ -38,7 +38,7 @@ ul,li{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #008CBA;
 }
 .skill-card:hover .overlay{
@@ -47,6 +47,7 @@ ul,li{
 .maxsize-image{
   max-width:190px;  
   max-height:190px;
+  overflow:hidden;
 }
 .txt {
   color: white;
@@ -60,5 +61,5 @@ ul,li{
   text-align: center;
 }
 body{
-  background: url("image/background-image.jpg") rgba(255,255,255,0.5) no-repeat center center fixed;
+  background: url("image\background-image.jpg") rgba(255,255,255,0.5) no-repeat center center fixed;
 }
