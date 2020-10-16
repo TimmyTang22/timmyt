@@ -43,6 +43,10 @@ ul,li{
 .skill-card:hover .overlay{
   opacity:1;
 }
+.maxsize-image{
+  max-width:190px;  
+  max-height:190px;
+}
 .txt {
   color: white;
   font-size: 20px;
