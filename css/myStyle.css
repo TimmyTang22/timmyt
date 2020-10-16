@@ -30,6 +30,7 @@ ul,li{
   position: relative;
   border: 2px solid Chartreuse;
   border-radius: 25px;
+  overflow:hidden;
 }
 .overlay {
   position: absolute;
