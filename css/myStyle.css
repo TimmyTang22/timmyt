@@ -55,6 +55,6 @@ ul,li{
   text-align: center;
 }
 body::before{
-  background: url("image/background-image.jpg") no-repeat center center fixed;;
+  background: url("image/background-image.jpg") no-repeat center center fixed;
   opacity: 0.5;
 }
