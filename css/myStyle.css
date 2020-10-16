@@ -59,3 +59,7 @@ ul,li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+body{
+  background-image: url("background-image.jpg");
+  opacity: 0.5;
+}
