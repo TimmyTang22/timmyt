@@ -33,24 +33,29 @@ ul,li{
   max-width:150px;
   max-height:150px;
 }
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
+.overlay {
   position: absolute;
-  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+.skill-card:hover .overlay{
+  opacity:1;
+}
+.txt {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
