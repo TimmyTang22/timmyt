@@ -27,7 +27,7 @@ ul,li{
   height:200px;
   display:inline-block;
   margin: 1px;
-  position: absolute;
+  position: relative;
 }
 .overlay {
   position: absolute;
