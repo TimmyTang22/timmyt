@@ -68,7 +68,7 @@ ul,li{
   height:500px;
 }
 .siderbar-logo{
-  width:1px;
-  height:1px;  
+  max-width:5px;
+  maxheight:5px;  
 }
 
