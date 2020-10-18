@@ -63,6 +63,12 @@ ul,li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/*body{
-  background: url(../image/bgimg.jpg) rgba(255,255,255,0.5) no-repeat center center fixed;
-}*/
+.codepen-size{
+  width:50%;
+  height:500px;
+}
+.siderbar-logo{
+  width:20px;
+  height:20px;  
+}
+
