@@ -68,3 +68,7 @@ ul,li{
   hight:500px;
   overflow:scroll;
 }
+.image-overflow{
+  width:70%;
+  overflow-y:scroll;
+}
