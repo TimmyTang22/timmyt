@@ -66,7 +66,6 @@ ul,li{
 .codepen{
   width:50%;
   height:500px;
-  display: flex;
   align-items: center;
   margin: 1em 0;
 }
