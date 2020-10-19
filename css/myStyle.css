@@ -68,8 +68,7 @@ ul,li{
   align-items: center;
   margin: 1em 0;
 }
-.siderbar-logo{
-  max-width:5px;
-  maxheight:5px;  
+.hrline{
+  border-top: 1px dot Aquamarine;
 }
 
