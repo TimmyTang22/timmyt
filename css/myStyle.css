@@ -68,16 +68,3 @@ ul,li{
   hight:100%;
   overflow:scroll;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.col{
-  flex-grow: 1;
-  max-width:400px;
-  max-height:800px;
-  background-color: powderblue;
-  color:white;
-  margin:0 auto;
-  text-align:center;
-}
