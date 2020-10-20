@@ -64,8 +64,8 @@ ul,li{
   text-align: center;
 }
 .codepen{
-  width:75%;
-  hight:500px;
+  width:100%;
+  hight:100%;
   overflow:scroll;
 }
 .row {
