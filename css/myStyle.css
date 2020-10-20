@@ -68,7 +68,3 @@ ul,li{
   hight:100%;
   overflow:scroll;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
