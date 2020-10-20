@@ -74,14 +74,9 @@ ul,li{
 }
 .col{
   flex-grow: 1;
-  
-  /* Try to resize window < 600px */
-  min-width:200px;
-
-  /* Below is not important */
-  background-color:pink;
+  max-width:600px;
   color:white;
-  margin:15px;
+  margin:0 auto;
   min-height:50vh;
   text-align:center;
 }
