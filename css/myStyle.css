@@ -74,9 +74,9 @@ ul,li{
 }
 .col{
   flex-grow: 1;
-  max-width:600px;
+  max-width:400px;
+  max-height:800px;
   color:white;
   margin:0 auto;
-  min-height:50vh;
   text-align:center;
 }
