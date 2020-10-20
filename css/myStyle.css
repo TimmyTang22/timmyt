@@ -68,7 +68,20 @@ ul,li{
   hight:500px;
   overflow:scroll;
 }
-.image-overflow{
-  width:70%;
-  overflow-y:scroll;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col{
+  flex-grow: 1;
+  
+  /* Try to resize window < 600px */
+  min-width:200px;
+
+  /* Below is not important */
+  background-color:pink;
+  color:white;
+  margin:15px;
+  min-height:50vh;
+  text-align:center;
 }
