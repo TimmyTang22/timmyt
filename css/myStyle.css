@@ -67,8 +67,8 @@ ul,li{
   text-align: center;
 }
 .codepen{
-  width:100%;
-  hight:100%;
+  width:400px;
+  hight:400px;
   overflow:scroll;
 }
 .AniL-R{  
