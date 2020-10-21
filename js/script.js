@@ -1,3 +1,3 @@
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
+function scrollTo(hash) {
+    location.hash = "#" + hash;
+}
