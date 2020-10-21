@@ -71,3 +71,12 @@ ul,li{
   hight:100%;
   overflow:scroll;
 }
+.AniL-R{  
+  animation-name: left-right;
+  animation-duration: 2s;
+}
+
+@keyframe left-right{ 
+  from {left: -20px;}
+  to {left: 20px;} 
+}
