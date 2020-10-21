@@ -73,7 +73,7 @@ ul,li{
 }
 .AniL-R{  
   animation-name: left-right;
-  animation-duration: 2s;
+  animation-duration: 5s;
 }
 
 @keyframe left-right{ 
