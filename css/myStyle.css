@@ -63,14 +63,6 @@ ul,li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.codepen{
-  width:400px;
-  hight:400px;
-  max-width:400px;
-  max-hieght:400px;
-  overflow:scroll;
-}
-
 div.bg-img{
   width: 800px;
   height: 600px;
