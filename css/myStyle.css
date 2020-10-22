@@ -66,6 +66,8 @@ ul,li{
 .codepen{
   width:400px;
   hight:400px;
+  max-width:400px;
+  max-hieght:400px;
   overflow:scroll;
 }
 
