@@ -72,7 +72,7 @@ div.bg-img{
   background-repeat: no-repeat;
   background-size: auto;
 }
-tooltip-test:hover{
+.tooltip-test:hover{
   opacity: 0.5;
 }
 .skill-card:hover .overlay{
