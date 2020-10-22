@@ -88,10 +88,10 @@ div.bg-img{
   opacity:1;
 }
 .AniL-R{  
-  animation-name: left-right;
-  animation-duration: 5s;
+  webkit-animation-name: left-right;
+  webkit-animation-duration: 5s;
 }
-@keyframe left-right{ 
+@-webkit-keyframes left-right{ 
   from {left: -20px;}
   to {left: 20px;} 
 }
