@@ -78,11 +78,11 @@ div.bg-img{
 .skill-card:hover .overlay{
   opacity:1;
 }
-.AniL-R{  
-  -webkit-animation-name: left-right;
-  -webkit-animation-duration: 5s;
-}
 @-webkit-keyframes left-right{ 
   from {left: -20px;}
   to {left: 20px;} 
+}
+.AniL-R{  
+  -webkit-animation-name: left-right;
+  -webkit-animation-duration: 5s;
 }
