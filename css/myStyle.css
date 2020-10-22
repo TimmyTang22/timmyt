@@ -73,7 +73,7 @@ div.bg-img{
   width: 800px;
   height: 600px;
   padding: 10px;
-  background-image: url(/image/background-image.jpg );
+  background-image: url(/timmyt/image/background-image.jpg );
   border: 1px solid black;
   background-size: contain;
 }
