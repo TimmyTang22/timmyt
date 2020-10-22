@@ -73,7 +73,7 @@ div.bg-img{
   background-size: auto;
 }
 }
-.tooltip-test:hover{
+button.tooltip-test:hover{
   opacity: 0.5;
 }
 .skill-card:hover .overlay{
