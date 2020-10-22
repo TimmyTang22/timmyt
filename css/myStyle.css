@@ -75,7 +75,9 @@ div.bg-img{
   padding: 10px;
   background-image: url(/timmyt/image/background-image.jpg );
   border: 1px solid black;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 }
 .tooltip-test:hover{
   opacity: 0.5;
