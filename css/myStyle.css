@@ -72,6 +72,13 @@ div.bg-img{
   background-repeat: no-repeat;
   background-size: auto;
 }
+.welcome{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
 .tooltip-test:hover{
   opacity: 0.5;
 }
