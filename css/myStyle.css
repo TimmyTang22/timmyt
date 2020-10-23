@@ -94,5 +94,6 @@ div.bg-img{
   } 
 }
 .AniL-R{  
+  position: absolute;
   -webkit-animation:LToR 5s;
 }
