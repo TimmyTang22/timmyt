@@ -85,15 +85,14 @@ div.bg-img{
 .skill-card:hover .overlay{
   opacity:1;
 }
-@-webkit-keyframes LToR{ 
+@-webkit-keyframes fadein{ 
   0% {
-    left: -20px;
+    opacity:0;
   }
   100% {
-    left: 20px;
+    opacity:1;
   } 
 }
-.AniL-R{  
-  position: absolute;
-  -webkit-animation:LToR 5s;
+.AniFadeIn{  
+  -webkit-animation:fadein 5s;
 }
