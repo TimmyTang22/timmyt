@@ -78,7 +78,7 @@ div.bg-img{
 .skill-card:hover .overlay{
   opacity:1;
 }
-@keyframes LToR{ 
+@-webkit-keyframes LToR{ 
   0% {
     left: -20px;
   }
@@ -87,6 +87,5 @@ div.bg-img{
   } 
 }
 .AniL-R{  
-  animation-name: LToR;
-  animation-duration: 5s;
+  -webkit-animation:LToR 5s;
 }
