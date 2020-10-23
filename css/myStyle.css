@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 #sidebar{
   left:20px;
   width:20%;
@@ -8,23 +9,29 @@ html {
   margin:auto;
   height:100%;
 }
+
 #content{  
   margin-left: 25%;
 }
+
 ul,li{
  padding:10px;
 }
+
 .school_logo{
   width:200px;
 }
+
 .edu-card{
   padding:5px;
   margin: 1rem;
 }
+
 .card-text{
   margin:auto;
   text-align:center;
 }
+
 .skill-card{
   width:200px; 
   height:200px;
@@ -35,6 +42,7 @@ ul,li{
   border-radius: 25px;
   overflow:hidden;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -47,11 +55,13 @@ ul,li{
   transition: 0.5s ease;
   background-color: #008CBA;
 }
+
 .maxsize-image{
   max-width:190px;  
   max-height:190px;
   overflow:hidden;
 }
+
 .txt {
   color: white;
   font-size: 20px;
@@ -63,6 +73,7 @@ ul,li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 div.bg-img{
   width: 800px;
   height: 600px;
@@ -72,6 +83,7 @@ div.bg-img{
   background-repeat: no-repeat;
   background-size: auto;
 }
+
 .welcome{
   height: auto;
   line-height:1;
@@ -79,12 +91,15 @@ div.bg-img{
   text-align:center;
   overflow:hidden;
 }
+
 .tooltip-test:hover{
   opacity: 0.5;
 }
+
 .skill-card:hover .overlay{
   opacity:1;
 }
+
 @-webkit-keyframes fadein{ 
   0% {
     opacity:0;
@@ -93,6 +108,7 @@ div.bg-img{
     opacity:1;
   } 
 }
+
 @-webkit-keyframes LToR{ 
   0% {
     left:-20px;
@@ -101,10 +117,12 @@ div.bg-img{
     left:50%;
   } 
 }
+
 .AniFadeIn{  
   -webkit-animation:fadein 2s;
   -webkit-animation-delay:0s;
 }
+
 .AniLToR{
   position:absolute;
   -webkit-animation:LToR 2s;
