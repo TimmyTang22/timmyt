@@ -117,7 +117,7 @@ div.bg-img{
     top:20%;
   }
   50%{/*8s*/
-    top:60%;
+    top:40%;
   }
   56.25%{/*9s*/
     top:100%;
@@ -190,12 +190,13 @@ div.bg-img{
 }
 
 .AniRot{
-  top:75%;
+  top:20%;
   position:relative;
   -webkit-animation:Rot 16s infinite;  
 }
 .AniScale{
-  top:80%;
+  position:relative;
+  top:20%;
   left:80%;
   -webkit-animation:ScaleUp 16s infinite;  
 }
