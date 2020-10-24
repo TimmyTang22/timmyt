@@ -95,7 +95,7 @@ div.bg-img{
 
 @-webkit-keyframes RToL{ 
   0% {
-    right:-20px;
+    right:100%;
   }
   100% {
     right:0%;
@@ -110,6 +110,5 @@ div.bg-img{
 .AniRToL{
   right:0%;
   position:relative;
-  -webkit-animation:RToL 2s;
-  -webkit-animation-delay:1s;
+  -webkit-animation:RToL 4s;
 }
