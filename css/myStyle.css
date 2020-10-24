@@ -129,24 +129,22 @@ div.bg-img{
 
 @-webkit-keyframes Rot{ /*16s*/
  0%{ /*0s*/
-   left:-20%;
+   transform:translateX(-20%)
   }
   25% {/*3s*/
-    left:-20%;
+    transform:translateX(-20%)
   }
   50%{
-    left:25%;
-    transform:rotate(360deg);
+    transform:translateX(30%) rotate(360deg);
   }
   62.5%{    
-    left:25%;
+    transform:translateX(30%)
   }
   75%{
-    left:100%;
-    transform:rotate(360deg);
+    transform:translateX(100%) rotate(360deg);
   }
   100%{
-    left:100%;
+    transform:translateX(100%);
   }
 }
 
@@ -196,6 +194,6 @@ div.bg-img{
 .AniScale{
   position:relative;
   top:50%;
-  left:20%;
+  left:40%;
   -webkit-animation:ScaleUp 16s infinite;  
 }
