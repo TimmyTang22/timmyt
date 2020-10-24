@@ -189,13 +189,13 @@ div.bg-img{
 }
 
 .AniRot{
-  top:20%;
+  top:40%;
   position:relative;
   -webkit-animation:Rot 16s infinite;  
 }
 .AniScale{
   position:relative;
-  top:20%;
-  left:80%;
+  top:50%;
+  left:20%;
   -webkit-animation:ScaleUp 16s infinite;  
 }
