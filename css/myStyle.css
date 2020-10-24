@@ -93,12 +93,12 @@ div.bg-img{
   } 
 }
 
-@-webkit-keyframes LToR{ 
+@-webkit-keyframes RToL{ 
   0% {
-    left:-20px;
+    right:-20px;
   }
   100% {
-    left:40%;
+    left:0%;
   } 
 }
 
@@ -107,9 +107,9 @@ div.bg-img{
   -webkit-animation-duration:2s;
 }
 
-.AniLToR{
+.AniRToL{
   left:40%;
   position:relative;
-  -webkit-animation:LToR 2s;
+  -webkit-animation:RToL 2s;
   -webkit-animation-delay:1s;
 }
