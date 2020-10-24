@@ -121,6 +121,18 @@ div.bg-img{
   }  
 }
 
+@-webkit-keyframes Rot{ /*16s*/
+ 0%{ /*0s*/
+   left:0%;
+  }
+  25% {/*3s*/
+    left:0%;
+  }
+  50%{
+    left:25%
+    rotate(720deg);
+}
+
 .AniFadeIn{  
   -webkit-animation-name:fadein;
   -webkit-animation-duration:2s;
@@ -133,7 +145,13 @@ div.bg-img{
 }
 
 .AniDown{
- left:10%;
+  left:10%;
   position:relative;
   -webkit-animation:ScrollDown 16s infinite;  
+}
+
+.AniRot{
+  left:25%;
+  position:relative;
+  -webkit-animation:Rot 16s infinite;  
 }
