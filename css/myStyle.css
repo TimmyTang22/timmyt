@@ -151,6 +151,28 @@ div.bg-img{
   }
 }
 
+@-webkit-keyframes ScaleUp{ /*16s*/
+ 0%{ /*0s*/
+   transform: scale(0);
+  }
+  50%{    
+   transform: scale(0);
+  }
+  62.5%{    
+   transform: scale(1);
+  }
+  75%{    
+   transform: scale(1);
+  }
+  87.5%{
+   transform: scale(0); 
+  }
+  100%{
+   transform: scale(0); 
+  }
+}
+
+
 .AniFadeIn{  
   -webkit-animation-name:fadein;
   -webkit-animation-duration:2s;
@@ -172,4 +194,9 @@ div.bg-img{
   left:25%;
   position:relative;
   -webkit-animation:Rot 16s infinite;  
+}
+.AniScale{
+  top:70%;
+  left:60%;
+  -webkit-animation:ScaleUp 16s infinite;  
 }
