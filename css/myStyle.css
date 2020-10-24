@@ -88,13 +88,22 @@ div.bg-img{
   } 
 }
 
-@-webkit-keyframes LToR{ 
-  0% {
+@-webkit-keyframes LToR{ /*16s*/
+  0% {/*0s*/
     right:100%;
   }
-  100% {
+  12.5%{/*2s*/
     right:0%;
+  }
+  18.75%{/*3s*/
+    right:0%
+  }
+  25% {
+    left:100%;
   } 
+  100%{
+    left:100%
+  }
 }
 
 .AniFadeIn{  
@@ -105,5 +114,5 @@ div.bg-img{
 .AniLToR{
   right:0%;
   position:relative;
-  -webkit-animation:LToR 4s;
+  -webkit-animation:LToR 16s infinite;
 }
