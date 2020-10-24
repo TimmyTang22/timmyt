@@ -108,7 +108,7 @@ div.bg-img{
 }
 
 .AniRToL{
-  left:40%;
+  left:0%;
   position:relative;
   -webkit-animation:RToL 2s;
   -webkit-animation-delay:1s;
