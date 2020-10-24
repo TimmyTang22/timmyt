@@ -110,5 +110,5 @@ div.bg-img{
 .AniLToR{
   left:40%;
   position:relative;
-  -webkit-animation:LToR 2s;
+  -webkit-animation:LToR 2s 2s;
 }
