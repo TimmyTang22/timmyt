@@ -89,21 +89,36 @@ div.bg-img{
 }
 
 @-webkit-keyframes LToR{ /*16s*/
-  0% {/*0s*/
+  0% {      /*0s*/
     right:100%;
   }
-  12.5%{/*2s*/
+  12.5%{    /*2s*/
     right:0%;
   }
-  18.75%{/*3s*/
+  18.75%{   /*3s*/
     right:0%
   }
-  25% {
+  25% {     /*4s*/
     left:100%;
-  } 
-  100%{
-    left:100%
   }
+}
+
+@-webkit-keyframes ScrollDown{ /*16s*/
+ 0%{ /*0s*/
+    top:0%;
+  }
+  18.75% {/*3s*/
+    top:0%;
+  }
+  25% {/*4s*/
+    top:40%;
+  }
+  50%{/*8s*/
+    top:60%;
+  }
+  56.25%{/*9s*/
+    top:100%;
+  }  
 }
 
 .AniFadeIn{  
@@ -115,4 +130,10 @@ div.bg-img{
   right:0%;
   position:relative;
   -webkit-animation:LToR 16s infinite;
+}
+
+.AniDown{
+ left:10%;
+  position:relative;
+  -webkit-animation:ScrollDown 16s infinite;  
 }
