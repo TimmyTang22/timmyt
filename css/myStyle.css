@@ -129,19 +129,19 @@ div.bg-img{
 
 @-webkit-keyframes Rot{ /*16s*/
  0%{ /*0s*/
-   transform:translateX(-20%)
+   transform:translateX(-20%);
   }
   25% {/*3s*/
-    transform:translateX(-20%)
+    transform:translateX(-20%);
   }
   50%{
     transform:translateX(30%) rotate(360deg);
   }
   62.5%{    
-    transform:translateX(30%)
+    transform:translateX(30%);
   }
   75%{
-    transform:translateX(100%) rotate(360deg);
+    transform:translateX(100%);
   }
   100%{
     transform:translateX(100%);
