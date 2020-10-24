@@ -122,6 +122,9 @@ div.bg-img{
   56.25%{/*9s*/
     top:100%;
   }  
+  100%{
+    top:100%; 
+  }
 }
 
 @-webkit-keyframes Rot{ /*16s*/
@@ -130,10 +133,22 @@ div.bg-img{
   }
   25% {/*3s*/
     left:0%;
+    rotate(720deg);
   }
   50%{
-    left:25%
+    left:25%;
+    rotate(360deg);
+  }
+  62.5%{    
+    left:25%;
+  }
+  75%{
+    left:100%;    
     rotate(720deg);
+  }
+  100%{
+    left:100%;
+  }
 }
 
 .AniFadeIn{  
