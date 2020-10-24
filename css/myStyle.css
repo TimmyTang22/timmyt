@@ -63,6 +63,8 @@ ul,li{
 }
 
 div.bg-img{
+  width:100%;/*800px;*/
+  height:100%;/*600px;*/
   background-image: url(/timmyt/image/background-image.jpg );
   background-repeat: no-repeat;
   background-size: auto;
