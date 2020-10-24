@@ -89,7 +89,7 @@ div.bg-img{
   height: auto;
   line-height:1;
   vertical-align: middle;
-  left:70%;
+  margin-left:70%;
 }
 
 .tooltip-test:hover{
@@ -113,11 +113,11 @@ div.bg-img{
 @-webkit-keyframes LToR{ 
   0% {
     opacity:0;
-    left:-20px;
+    margin-left:-20px;
   }
   100% {
     opacity:1;
-    left:70%;
+    margin-left:70%;
   } 
 }
 
