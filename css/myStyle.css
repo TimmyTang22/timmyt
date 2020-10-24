@@ -133,18 +133,18 @@ div.bg-img{
   }
   25% {/*3s*/
     left:-20%;
-    rotate(720deg);
   }
   50%{
     left:25%;
-    rotate(360deg);
+    rotate(359deg);
   }
   62.5%{    
     left:25%;
+    rotate(0deg);
   }
   75%{
     left:100%;    
-    rotate(720deg);
+    rotate(0deg);
   }
   100%{
     left:100%;
