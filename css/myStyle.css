@@ -129,10 +129,10 @@ div.bg-img{
 
 @-webkit-keyframes Rot{ /*16s*/
  0%{ /*0s*/
-   left:0%;
+   left:-20%;
   }
   25% {/*3s*/
-    left:0%;
+    left:-20%;
     rotate(720deg);
   }
   50%{
@@ -190,12 +190,12 @@ div.bg-img{
 }
 
 .AniRot{
-  left:25%;
+  top:75%;
   position:relative;
   -webkit-animation:Rot 16s infinite;  
 }
 .AniScale{
-  top:70%;
-  left:60%;
+  top:80%;
+  left:80%;
   -webkit-animation:ScaleUp 16s infinite;  
 }
