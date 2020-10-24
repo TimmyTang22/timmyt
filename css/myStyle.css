@@ -101,17 +101,20 @@ div.bg-img{
   28.125% {     /*4.5s*/
     right:-100%;
   }
+  100%{    
+    right:-100%;
+  }
 }
 
 @-webkit-keyframes ScrollDown{ /*16s*/
  0%{ /*0s*/
-    top:0%;
+    top:-25%;
   }
   18.75% {/*3s*/
-    top:0%;
+    top:-25%;
   }
   25% {/*4s*/
-    top:40%;
+    top:20%;
   }
   50%{/*8s*/
     top:60%;
