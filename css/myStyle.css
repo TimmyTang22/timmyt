@@ -129,13 +129,32 @@ div.bg-img{
 
 @-webkit-keyframes Rot{ /*16s*/
  0%{ /*0s*/
+   transform:rotate(0deg);
+  }
+  25% {/*3s*/
+   transform:rotate(0deg);
+  }
+  50%{
+    transform:rotate(360deg);
+  }
+  62.5%{   
+    transform:rotate(0deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+
+@-webkit-keyframes MoveRot{ /*16s*/
+ 0%{ /*0s*/
    transform:translateX(-20%);
   }
   25% {/*3s*/
     transform:translateX(-20%);
   }
   50%{
-    transform:translateX(30%) rotate(360deg);
+    transform:translateX(30%);
   }
   62.5%{    
     transform:translateX(30%);
@@ -147,6 +166,7 @@ div.bg-img{
     transform:translateX(100%);
   }
 }
+
 
 @-webkit-keyframes ScaleUp{ /*16s*/
  0%{ /*0s*/
@@ -187,9 +207,12 @@ div.bg-img{
 }
 
 .AniRot{
+  -webkit-animation:Rot 16s infinite;  
+}
+.AniMoveRot{  
   top:40%;
   position:relative;
-  -webkit-animation:Rot 16s infinite;  
+  -webkit-animation:MoveRot 16s infinite;  
 }
 .AniScale{
   position:relative;
