@@ -21,7 +21,4 @@ mode: over // change sidenav mode
 $('.button-collapse').sideNav2('show');
 // Hide sideNav
 $('.button-collapse').sideNav2('hide');
-// SideNav Scrollbar Initialization
-var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-var ps = new PerfectScrollbar(sideNavScrollbar);
 });
