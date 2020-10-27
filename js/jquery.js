@@ -45,10 +45,6 @@
 // enough that all such attempts are guarded in a try block.
 "use strict";
 
-// SideNav Scrollbar Initialization
-var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-var ps = new PerfectScrollbar(sideNavScrollbar);
-
 var arr = [];
 
 var getProto = Object.getPrototypeOf;
@@ -10874,3 +10870,10 @@ if ( typeof noGlobal === "undefined" ) {
 
 return jQuery;
 } );
+
+$(document).ready(function() {
+// Show sideNav
+$('.button-collapse').sideNav2('show');
+// Hide sideNav
+$('.button-collapse').sideNav2('hide');
+});
