@@ -18,6 +18,9 @@ onOpen: null, // callback function
 onClose: null, // callback function
 mode: over // change sidenav mode
 });
+$('.button-collapse').sideNav2('show');
+// Hide sideNav
+$('.button-collapse').sideNav2('hide');
 // SideNav Scrollbar Initialization
 var sideNavScrollbar = document.querySelector('.custom-scrollbar');
 var ps = new PerfectScrollbar(sideNavScrollbar);
