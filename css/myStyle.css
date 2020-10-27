@@ -142,11 +142,11 @@ div.bg-img{
   }
   62.5%{      
    left:100%;
-    transform:rotate(0deg);
+    transform:rotate(180deg);
   }
   100%{  
     left:100%;
-    transform:rotate(0deg);
+    transform:rotate(180deg);
   }
 }
 
