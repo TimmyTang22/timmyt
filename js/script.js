@@ -1,5 +1,12 @@
 $(document).ready(function() {
 // SideNav Button Initialization
+$(".button-collapse").sideNav2();
+// SideNav Scrollbar Initialization
+var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+var ps = new PerfectScrollbar(sideNavScrollbar);
+});
+$(document).ready(function() {
+// SideNav Default Options
 $('.button-collapse').sideNav({
 edge: 'left', // Choose the horizontal origin
 closeOnClick: false, // Closes side-nav on &lt;a&gt; clicks, useful for Angular/Meteor
@@ -18,7 +25,4 @@ onOpen: null, // callback function
 onClose: null, // callback function
 mode: over // change sidenav mode
 });
-$('.button-collapse').sideNav2('show');
-// Hide sideNav
-$('.button-collapse').sideNav2('hide');
 });
