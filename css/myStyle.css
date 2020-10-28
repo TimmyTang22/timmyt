@@ -109,20 +109,20 @@ ul,li{
     right:100%;
     opacity:0;
   }
-  25%{    /*1s*/
+  25%{    /*2s*/
     right:0%;
     opacity:1;
   }
-  50%{   /*2s*/
+  50%{   /*4s*/
     right:0%;
     opacity:1;
   }
-  75% {     /*3s*/
+  75% {     /*6s*/
     right:-100%;
     opacity:0;
   }
-  100%{    /*4s*/
-    right:-200%;
+  100%{    /*8s*/
+    right:-100%;
     opacity:0;
   }
 }
@@ -135,6 +135,6 @@ ul,li{
 .AniLToR{
   right:0%;
   position:relative;
-  -webkit-animation:LToR 4s infinite;
+  -webkit-animation:LToR 8s infinite;
   text-shadow: 2px 2px black;
 }
