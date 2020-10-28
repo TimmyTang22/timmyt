@@ -25,19 +25,20 @@ header,
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 #sidebar{
-  left:20px;
-  width:20%;
-  position: fixed;
-  margin:auto;
-  height:100%;
+    left:20px;
+    width:20%;
+    position: fixed;
+    margin:auto;
+    height:100%;
 }
 
 #content{  
-  margin:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul,li{
@@ -114,78 +115,16 @@ ul,li{
     right:0%;
   }
   18.75%{   /*3s*/
-    right:0%
+    right:0%;
+    opacity:1;
   }
   25% {     /*4s*/
     right:-100%;
+    opacity:0;
   }
   100%{    
-    right:-100%;
-  }
-}
-
-@-webkit-keyframes ScrollDown{ /*16s*/
- 0%{ /*0s*/
-    top:-25%;
-  }
-  18.75% {/*3s*/
-    top:-25%;
-  }
-  25% {/*4s*/
-    top:20%;
-  }
-  50%{/*8s*/
-    top:40%;
-  }
-  56.25%{/*9s*/
-    top:100%;
-  }  
-  100%{
-    top:100%; 
-  }
-}
-
-@-webkit-keyframes Rot{ /*16s*/
- 0%{ /*0s*/
-   left:-20%;
-   transform:rotate(0deg);
-  }
-  25% {/*3s*/    
-   left:-20%;
-   transform:rotate(0deg);
-  }
-  50%{
-    left:30%;
-    transform:rotate(360deg);
-  }
-  62.5%{      
-   left:100%;
-    transform:rotate(180deg);
-  }
-  100%{  
-    left:100%;
-    transform:rotate(180deg);
-  }
-}
-
-@-webkit-keyframes ScaleUp{ /*16s*/
- 0%{ /*0s*/
-   transform: scale(0);
-  }
-  50%{    
-   transform: scale(0);
-  }
-  62.5%{    
-   transform: scale(1);
-  }
-  75%{    
-   transform: scale(1);
-  }
-  87.5%{
-   transform: scale(0); 
-  }
-  100%{
-   transform: scale(0); 
+    right:-200%;
+    opacity:0;
   }
 }
 
@@ -198,23 +137,5 @@ ul,li{
   right:0%;
   position:relative;
   -webkit-animation:LToR 16s infinite;
-}
-
-.AniDown{
-  left:10%;
-  position:relative;
-  -webkit-animation:ScrollDown 16s infinite;  
-}
-
-.AniRot{
-  top:40%;
-  position:relative;
-  -webkit-animation:Rot 16s infinite;  
-}
-
-.AniScale{
-  position:relative;
-  top:50%;
-  left:40%;
-  -webkit-animation:ScaleUp 16s infinite;  
+  text-shadow: 2px 2px black;
 }
