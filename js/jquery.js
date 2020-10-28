@@ -10870,10 +10870,3 @@ if ( typeof noGlobal === "undefined" ) {
 
 return jQuery;
 } );
-
-$(document).ready(function() {
-// Show sideNav
-$('.button-collapse').sideNav2('show');
-// Hide sideNav
-$('.button-collapse').sideNav2('hide');
-});
