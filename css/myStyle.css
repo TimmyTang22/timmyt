@@ -37,7 +37,7 @@ html {
 }
 
 #content{  
-  margin-left: 25%;
+  margin:auto;
 }
 
 ul,li{
@@ -87,14 +87,6 @@ ul,li{
   max-height:190px;
   overflow:hidden;
 }
-
-/*div.bg-img{
-  width:800px;
-  height:600px;
-  background-image: url(/timmyt/img/background-image.jpg );
-  background-repeat: no-repeat;
-  background-size: auto;
-}*/
 
 .tooltip-test:hover{
   opacity: 0.5;
