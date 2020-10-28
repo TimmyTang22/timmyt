@@ -110,19 +110,21 @@ ul,li{
 @-webkit-keyframes LToR{ /*16s*/
   0% {      /*0s*/
     right:100%;
+    opacity:0;
   }
-  12.5%{    /*2s*/
-    right:0%;
-  }
-  18.75%{   /*3s*/
+  25%{    /*1s*/
     right:0%;
     opacity:1;
   }
-  25% {     /*4s*/
+  50%{   /*2s*/
+    right:0%;
+    opacity:1;
+  }
+  75% {     /*3s*/
     right:-100%;
     opacity:0;
   }
-  100%{    
+  100%{    /*4s*/
     right:-200%;
     opacity:0;
   }
@@ -136,6 +138,6 @@ ul,li{
 .AniLToR{
   right:0%;
   position:relative;
-  -webkit-animation:LToR 16s infinite;
+  -webkit-animation:LToR 4s infinite;
   text-shadow: 2px 2px black;
 }
