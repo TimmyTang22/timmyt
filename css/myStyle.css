@@ -1,5 +1,5 @@
 .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg")no-repeat center center;
+    background: url(/timmyt/img/background-image.jpg)no-repeat center center;
     background-size: cover;
 }
 .view {
@@ -88,13 +88,13 @@ ul,li{
   overflow:hidden;
 }
 
-div.bg-img{
+/*div.bg-img{
   width:800px;
   height:600px;
   background-image: url(/timmyt/img/background-image.jpg );
   background-repeat: no-repeat;
   background-size: auto;
-}
+}*/
 
 .tooltip-test:hover{
   opacity: 0.5;
