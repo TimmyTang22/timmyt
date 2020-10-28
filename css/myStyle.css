@@ -91,12 +91,6 @@ ul,li{
   background-color: #008CBA;
 }
 
-.maxsize-image{
-  max-width:190px;  
-  max-height:190px;
-  overflow:hidden;
-}
-
 .tooltip-test:hover{
   opacity: 0.5;
 }
