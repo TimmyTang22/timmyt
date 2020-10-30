@@ -19,10 +19,9 @@
     .edu-card{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        width:100%;
     }
     .school_logo{
+        width:200px;
         max-width:200px;
         height:auto;
     }
