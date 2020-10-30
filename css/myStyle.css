@@ -17,6 +17,9 @@
         background-color: #4285F4;
     }
     .edu-card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         width:100%;
     }
     #aboutme {
@@ -63,6 +66,9 @@ ul,li{
 .edu-card{
   padding:5px;
   margin: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .card-text{
