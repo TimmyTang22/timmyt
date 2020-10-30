@@ -23,7 +23,9 @@
         width: 100%;
     }
     #edu{        
-        width: 80%;
+        width: 90%;
+        height:auto;
+        display:inline-block;
     }
     
     #skills{        
