@@ -70,6 +70,7 @@ ul,li{
   flex-wrap: nowrap;
   flex-direction: row;
   align-content: stretch;
+  align-item: stretch;
 }
 
 }
