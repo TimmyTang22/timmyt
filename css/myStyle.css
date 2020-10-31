@@ -9,38 +9,6 @@
 .top-nav-collapse {
     background-color: #4285F4;
 }
-@media only screen and (max-width: 700px) {
-    .fos{
-        width:100%;
-    }
-    .navbar {
-        background-color: #4285F4;
-    }
-    .edu-card{
-        width: 100%;
-        height: auto;
-        margin:5px;
-    }
-    #edu-cont{
-        width: 100%;
-        height: 50px;
-        display:inline-flex;
-        flex-direction:column;
-    }
-    #aboutme {
-        width: 100%;
-    }
-    #edu{        
-        width: 90%;
-    }    
-    #skills{        
-        width: 100%;
-    }
-    
-    #prof{        
-        width: 100%;
-    }
-}
 html,
 body,
 header,
@@ -116,6 +84,39 @@ ul,li{
 
 .skill-card:hover .overlay{
   opacity:1;
+}
+
+@media only screen and (max-width: 700px) {
+    .fos{
+        width:100%;
+    }
+    .navbar {
+        background-color: #4285F4;
+    }
+    .edu-card{
+        width: 100%;
+        height: auto;
+        margin:5px;
+    }
+    #edu-cont{
+        width: 100%;
+        height: 50px;
+        display:inline-flex;
+        flex-direction:column;
+    }
+    #aboutme {
+        width: 100%;
+    }
+    #edu{        
+        width: 90%;
+    }    
+    #skills{        
+        width: 100%;
+    }
+    
+    #prof{        
+        width: 100%;
+    }
 }
 
 /* Animation*/
