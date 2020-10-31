@@ -9,7 +9,7 @@
 .top-nav-collapse {
     background-color: #4285F4;
 }
-@media only screen and (max-dervice-width: 800px) {
+@media only screen and (max-width: 800px) {
     .fos{
         width:100%;
     }
@@ -24,10 +24,6 @@
     #edu-cont{
         width: 100%;
         height: auto;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         flex-direction:column;
     }
     #aboutme {
@@ -77,13 +73,12 @@ ul,li{
     margin:5px;
 }
 #edu-cont{
-    width: 25%;
+    width: 30%;
     height: 100px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction:row;
 }
 .card-text{
   margin:auto;
