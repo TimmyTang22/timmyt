@@ -81,13 +81,13 @@ ul,li{
     margin:5px;
 }
 #edu-cont{
-    width: 100%;
+    width: 200px;
     height: 100px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction:column;
+    flex-direction:row;
 }
 .card-text{
   margin:auto;
