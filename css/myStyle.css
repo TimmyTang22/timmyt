@@ -19,6 +19,7 @@
     .edu-card{
         display: inline-flex;
         flex-direction: column;
+        flex-wrap:wrap;
     }
     .school_logo{
         width:500px;
@@ -66,6 +67,7 @@ ul,li{
 }
 
 .edu-card{
+    display:inline-block;
     width:800px;
     padding:5px;
     margin: 1rem;
