@@ -23,7 +23,7 @@
     }
     #edu-cont{
         width: 100%;
-        height: auto;
+        height: 50px;
         display:inline-flex;
         flex-direction:column;
     }
