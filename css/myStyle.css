@@ -100,7 +100,7 @@ ul,li{
     }
     #edu-cont{
         width: 100%;
-        height: 50px;
+        height: auto;
         display:inline-flex;
         flex-direction:column;
     }
