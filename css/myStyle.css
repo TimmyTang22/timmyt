@@ -71,11 +71,12 @@ ul,li{
 
 .edu-card{
     display:inline-block;
-    width:1000px;
+    width:800px;
     padding:5px;
     margin: 1rem;
 }
 .edu-txt{
+    width:200px;
     display:inline-block;
     position:absolute;
 }
