@@ -17,9 +17,9 @@
         background-color: #4285F4;
     }
     .edu-card{
-        display: inline-flex;
-        flex-direction: column;
-        flex-wrap:wrap;
+        display: inline-block;
+        width:600px;
+        height:auto;
     }
     .school_logo{
         width:500px;
