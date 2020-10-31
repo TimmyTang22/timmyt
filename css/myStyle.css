@@ -66,6 +66,7 @@ ul,li{
 }
 
 .edu-card{
+    width:800px;
     padding:5px;
     margin: 1rem;
     display: inline-flex;
