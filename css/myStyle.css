@@ -17,17 +17,17 @@
         background-color: #4285F4;
     }
     .edu-card{
-        width: 600px;
+        width: 400px;
         height: auto;
         margin:5px;
     }
     .school_logo{
-        width:500px;
+        /*width:500px;
         max-width:500px;
-        max-height:250px;
+        max-height:250px;*/
     }
     #edu-cont{
-        width: 500px;
+        width: 100%;
         height: auto;
         display: inline-flex;
         justify-content: center;
@@ -81,7 +81,7 @@ ul,li{
     margin:5px;
 }
 #edu-cont{
-    width: 200px;
+    width: 30%;
     height: 100px;
     display: inline-flex;
     justify-content: center;
