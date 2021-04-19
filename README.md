@@ -1,0 +1,2 @@
+# timmyt
+permalink: /index.html
